@@ -11,6 +11,8 @@ public class Personne {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
 
+    public boolean testons;
+
     private String nom;
     private String prenom;
     private int age;
